@@ -19,6 +19,11 @@
 		09A21FCF178B4B2900809C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A21FB7178B4B2800809C64 /* UIKit.framework */; };
 		09A21FD7178B4B2900809C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09A21FD5178B4B2900809C64 /* InfoPlist.strings */; };
 		09A21FD9178B4B2900809C64 /* MKThumbnailGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A21FD8178B4B2900809C64 /* MKThumbnailGeneratorTests.m */; };
+		09A21FFE178B4DCC00809C64 /* MKGenerateImageThumbOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A21FF4178B4DCC00809C64 /* MKGenerateImageThumbOperation.m */; };
+		09A21FFF178B4DCC00809C64 /* MKGeneratePDFThumbOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A21FF6178B4DCC00809C64 /* MKGeneratePDFThumbOperation.m */; };
+		09A22000178B4DCC00809C64 /* MKGenerateThumbnailOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A21FF9178B4DCC00809C64 /* MKGenerateThumbnailOperation.m */; };
+		09A22001178B4DCC00809C64 /* MKGenerateVideoThumbOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A21FFB178B4DCC00809C64 /* MKGenerateVideoThumbOperation.m */; };
+		09A22002178B4DCC00809C64 /* MKThumbnailGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A21FFD178B4DCC00809C64 /* MKThumbnailGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,17 @@
 		09A21FD4178B4B2900809C64 /* MKThumbnailGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKThumbnailGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		09A21FD6178B4B2900809C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09A21FD8178B4B2900809C64 /* MKThumbnailGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKThumbnailGeneratorTests.m; sourceTree = "<group>"; };
+		09A21FF3178B4DCC00809C64 /* MKGenerateImageThumbOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKGenerateImageThumbOperation.h; path = Code/MKGenerateImageThumbOperation.h; sourceTree = "<group>"; };
+		09A21FF4178B4DCC00809C64 /* MKGenerateImageThumbOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKGenerateImageThumbOperation.m; path = Code/MKGenerateImageThumbOperation.m; sourceTree = "<group>"; };
+		09A21FF5178B4DCC00809C64 /* MKGeneratePDFThumbOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKGeneratePDFThumbOperation.h; path = Code/MKGeneratePDFThumbOperation.h; sourceTree = "<group>"; };
+		09A21FF6178B4DCC00809C64 /* MKGeneratePDFThumbOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKGeneratePDFThumbOperation.m; path = Code/MKGeneratePDFThumbOperation.m; sourceTree = "<group>"; };
+		09A21FF7178B4DCC00809C64 /* MKGenerateThumbnailOperation_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKGenerateThumbnailOperation_Protected.h; path = Code/MKGenerateThumbnailOperation_Protected.h; sourceTree = "<group>"; };
+		09A21FF8178B4DCC00809C64 /* MKGenerateThumbnailOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKGenerateThumbnailOperation.h; path = Code/MKGenerateThumbnailOperation.h; sourceTree = "<group>"; };
+		09A21FF9178B4DCC00809C64 /* MKGenerateThumbnailOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKGenerateThumbnailOperation.m; path = Code/MKGenerateThumbnailOperation.m; sourceTree = "<group>"; };
+		09A21FFA178B4DCC00809C64 /* MKGenerateVideoThumbOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKGenerateVideoThumbOperation.h; path = Code/MKGenerateVideoThumbOperation.h; sourceTree = "<group>"; };
+		09A21FFB178B4DCC00809C64 /* MKGenerateVideoThumbOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKGenerateVideoThumbOperation.m; path = Code/MKGenerateVideoThumbOperation.m; sourceTree = "<group>"; };
+		09A21FFC178B4DCC00809C64 /* MKThumbnailGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKThumbnailGenerator.h; path = Code/MKThumbnailGenerator.h; sourceTree = "<group>"; };
+		09A21FFD178B4DCC00809C64 /* MKThumbnailGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKThumbnailGenerator.m; path = Code/MKThumbnailGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,7 @@
 		09A21FB9178B4B2800809C64 /* MKThumbnailGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				09A21FE2178B4CDD00809C64 /* Generator */,
 				09A21FC2178B4B2800809C64 /* MKAppDelegate.h */,
 				09A21FC3178B4B2800809C64 /* MKAppDelegate.m */,
 				09A21FC5178B4B2800809C64 /* Images.xcassets */,
@@ -142,6 +159,32 @@
 				09A21FD5178B4B2900809C64 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09A21FE2178B4CDD00809C64 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				09A21FFC178B4DCC00809C64 /* MKThumbnailGenerator.h */,
+				09A21FFD178B4DCC00809C64 /* MKThumbnailGenerator.m */,
+				09A22003178B4F3A00809C64 /* Operations */,
+			);
+			name = Generator;
+			sourceTree = "<group>";
+		};
+		09A22003178B4F3A00809C64 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				09A21FF7178B4DCC00809C64 /* MKGenerateThumbnailOperation_Protected.h */,
+				09A21FF8178B4DCC00809C64 /* MKGenerateThumbnailOperation.h */,
+				09A21FF9178B4DCC00809C64 /* MKGenerateThumbnailOperation.m */,
+				09A21FF3178B4DCC00809C64 /* MKGenerateImageThumbOperation.h */,
+				09A21FF4178B4DCC00809C64 /* MKGenerateImageThumbOperation.m */,
+				09A21FF5178B4DCC00809C64 /* MKGeneratePDFThumbOperation.h */,
+				09A21FF6178B4DCC00809C64 /* MKGeneratePDFThumbOperation.m */,
+				09A21FFA178B4DCC00809C64 /* MKGenerateVideoThumbOperation.h */,
+				09A21FFB178B4DCC00809C64 /* MKGenerateVideoThumbOperation.m */,
+			);
+			name = Operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A22002178B4DCC00809C64 /* MKThumbnailGenerator.m in Sources */,
+				09A22001178B4DCC00809C64 /* MKGenerateVideoThumbOperation.m in Sources */,
 				09A21FC4178B4B2800809C64 /* MKAppDelegate.m in Sources */,
+				09A21FFE178B4DCC00809C64 /* MKGenerateImageThumbOperation.m in Sources */,
+				09A22000178B4DCC00809C64 /* MKGenerateThumbnailOperation.m in Sources */,
 				09A21FC0178B4B2800809C64 /* main.m in Sources */,
+				09A21FFF178B4DCC00809C64 /* MKGeneratePDFThumbOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
