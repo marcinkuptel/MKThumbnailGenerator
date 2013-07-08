@@ -72,7 +72,7 @@ static NSDictionary * fileTypesDictionary(){
 {
 	MKGenerateThumbnailOperation *operation = nil;
 
-	IPGenerateThumbnailOperationCompletionBlock operationCompletion = ^(UIImage *thumbnail, NSError *error)
+	MKGenerateThumbnailOperationCompletionBlock operationCompletion = ^(UIImage *thumbnail, NSError *error)
 	{
 		if (error) {
 			DLog(@"%@", error);
